@@ -40,18 +40,16 @@ public class TreeNode {
         }
 
         if(value < this.data) {
-            if(getLeftChild() == null) {
-                TreeNode node = new TreeNode(value);
-                setLeftChild(node);
+            if(leftChild == null) {
+                leftChild = new TreeNode(value);
             } else {
-                insert(value);
+                leftChild.insert(value);
             }
         } else if(value > this.data) {
-            if(getRightChild() == null) {
-                TreeNode node = new TreeNode(value);
-                setRightChild(node);
+            if(rightChild == null) {
+                rightChild = new TreeNode(value);;
             } else {
-                insert(value);
+                rightChild.insert(value);
             }
         }
     }
