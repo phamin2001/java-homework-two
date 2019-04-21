@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8218f710-bf81-45d0-9d06-0a098d52496c" name="Default Changelist" comment="" />
+    <list default="true" id="8218f710-bf81-45d0-9d06-0a098d52496c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BinaryTree/src/test/java/com/ga/TreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BinaryTree/src/test/java/com/ga/TreeTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/BinaryTree/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,8 +52,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/BinaryTree/src/test/java/com/ga/TreeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+            <state relative-caret-position="300">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
             </state>
           </provider>
         </entry>
@@ -58,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
+            <state relative-caret-position="300">
+              <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -67,7 +70,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/TreeNode.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
+            <state relative-caret-position="768">
               <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
             </state>
           </provider>
@@ -92,8 +95,9 @@
         <option value="$PROJECT_DIR$/BinaryTree/pom.xml" />
         <option value="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/BinaryTreeInertion.java" />
         <option value="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/TreeNode.java" />
-        <option value="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java" />
         <option value="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/App.java" />
+        <option value="$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java" />
+        <option value="$PROJECT_DIR$/BinaryTree/src/test/java/com/ga/TreeTest.java" />
       </list>
     </option>
   </component>
@@ -198,7 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TreeTest">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ga.App" />
       <module name="BinaryTree" />
@@ -212,8 +216,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BinaryTree" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ga.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.ga" />
+      <option name="MAIN_CLASS_NAME" value="com.ga.TreeTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TreeTest" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
@@ -250,26 +270,42 @@
       <option name="project" value="LOCAL" />
       <updated>1555885140455</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Writing TestClass">
+      <created>1555885237631</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555885237631</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TreeTest - 2019.04.21 at 16h 24m 05s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TreeTest - 2019.04.21 at 16h 29m 22s.xml">
+      <configuration name="TreeTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="2588" y="143" width="1252" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27768594" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27768594" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" weight="0.3284974" />
       <window_info anchor="bottom" id="Terminal" weight="0.32953367" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Messages" weight="0.32953367" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3284974" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3284974" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -314,7 +350,8 @@
     <MESSAGE value="BinaryTree" />
     <MESSAGE value="Creating Tree Class" />
     <MESSAGE value="Add traverseInOrder method to print BinaryTree in order:&#10;LeftChild / Root / RightChild" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add traverseInOrder method to print BinaryTree in order:&#10;LeftChild / Root / RightChild" />
+    <MESSAGE value="Writing TestClass" />
+    <option name="LAST_COMMIT_MESSAGE" value="Writing TestClass" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/pom.xml">
@@ -331,24 +368,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="35" selection-start-line="15" selection-start-column="35" selection-end-line="15" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/App.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
           <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="64" column="41" selection-start-line="64" selection-start-column="41" selection-end-line="64" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -359,10 +389,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.class">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BinaryTree/src/main/java/com/ga/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BinaryTree/src/test/java/com/ga/TreeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+        <state relative-caret-position="300">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
